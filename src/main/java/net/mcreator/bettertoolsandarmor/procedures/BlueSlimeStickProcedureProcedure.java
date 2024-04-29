@@ -38,7 +38,7 @@ public class BlueSlimeStickProcedureProcedure {
 			if (!(((LivingEntity) entity).getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.ATTACK_KNOCKBACK).hasModifier(blue_slime_stick_knockback_modifier)))
 				((LivingEntity) entity).getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.ATTACK_KNOCKBACK).addTransientModifier(blue_slime_stick_knockback_modifier);
 		} else {
-			((LivingEntity) entity).getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.ATTACK_KNOCKBACK).removeModifier(blue_slime_stick_knockback_modifier);
+			((LivingEntity) entity).getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.ATTACK_KNOCKBACK).removeModifier(UUID.fromString("98bfe459-000a-48ed-a476-ce90773f13a1"));
 		}
 	}
 }
